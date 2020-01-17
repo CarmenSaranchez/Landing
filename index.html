@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plains</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin; 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(40deg, lightskyblue, beige);
+            width: 100%;
+            height: 150vh;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container{
+            
+            display: flex;
+            background: white;
+            box-shadow: 0 0 15px grey;
+            margin: 4em;
+            width: 70wh;
+            height: 85vh;
+            flex-direction: row;
+            overflow: hidden;
+            
+        }
+        h1{
+            color: orange;
+            font-size: 1.2em;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            
+        }
+
+        h2{
+            color: orange;
+            font-family: 'Roboto', sans-serif;
+            font-size: 5em;
+            font-weight: 900;
+            
+        }
+        h3{
+            color: purple;
+            font-family: sans-serif, bold;
+            font-size: 3em;
+            font-weight: 100;
+        }
+        p{
+            color: purple;
+            font-family: sans-serif, bold;
+            font-size: 1.4em;
+            font-weight: 200;
+            line-height: 1.7em;
+            
+        }
+        .boton{
+            display: flex;
+            color: white;
+            background: purple;
+            text-align: center;
+            align-items: center;
+            width: 6.5em;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2em;
+            padding: 0.5em;
+            border-radius: 17px;
+        }
+      
+         @media (max-width:900px){
+        .container{
+            font-size: 0.6em;
+            width: 80%;
+            height: 60vh;
+            margin: 2em;
+        }    
+        .text{
+            width: 400px;  
+            height: 600px;
+        }
+        .ilustracion{
+            display: flex;
+            object-position: right;
+            width: 55%;
+            height: 85vh;
+        }    
+        .ilustracio img{
+            width: auto;
+            height: 85vh;
+            object-fit: cover;
+            object-position: bottom center;
+        }
+        @media (max-width:600px){
+        .container{
+                font-size: 0.4em;
+                width: 80%;
+                height: 40vh;
+                margin: 1em;
+            }
+    
+        .text{
+            display: grid;
+            grid-template-rows: 0.5fr 0.1fr 0.5fr 0.9fr 0fr;
+            width: 45%;
+            height: 75vh;
+            padding: 2em 4em 2em 2em;
+            margin: 2em;            
+        }
+        .text{
+            height: 35vh;
+        }   
+        .ilustracio{
+            height: 40vh;
+        }
+        .ilustracio img{
+            height: 40vh;
+        }
+      }        
+    </style>
+</head>
+<body>
+<div class="container">
+   <div class="text">
+   <h1>COMPANY LOGO</h1>
+   <h2>START UP</h2>
+   <h3>Bussines plan</h3>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab temporibus eum accusantium asperiores, repellat, modi nisi sit fugiat, culpa in possimus sapiente quam laudantium distinctio a esse. Iure culpa, ea.</p>
+    
+    <div class="boton">Learn More</div>
+    </div>
+        <div class="ilustracio">  
+        <img src="img/ilus.png" alt="ilustracion">
+    </div>
+   </div>
+</body>
+</html>
